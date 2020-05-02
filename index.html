@@ -23,7 +23,9 @@
 <meta name="twitter:card" content="summary">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/nexmoe/nexmoe.github.io@latest/css/style.css,npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/nexmoe/nexmoe.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/nexmoe/nexmoe.github.io@latest/lib/iconfont/iconfont.css" crossorigin>
   
-  <!--<link rel="stylesheet" href="/css/style.css?v=1588339607804">-->
+    <link rel="stylesheet" href="at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
+  
+  <!--<link rel="stylesheet" href="/css/style.css?v=1588391743488">-->
 
    
     <style>
@@ -57,8 +59,8 @@
         </a>
     </div>
     <div class="nexmoe-count">
-        <div><span>文章</span>1</div>
-        <div><span>标签</span>0</div>
+        <div><span>文章</span>2</div>
+        <div><span>标签</span>1</div>
         <div><span>分类</span>0</div>
     </div>
     <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
@@ -70,17 +72,10 @@
             </div>
         </a>
         
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/about.html" title="关于博客">
-            <i class="mdui-list-item-icon nexmoefont icon-info-circle"></i>
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/archives" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
             <div class="mdui-list-item-content">
-                关于博客
-            </div>
-        </a>
-        
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/PY.html" title="我的朋友">
-            <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
-            <div class="mdui-list-item-content">
-                我的朋友
+                文章归档
             </div>
         </a>
         
@@ -89,7 +84,7 @@
   
   <div class="nexmoe-widget-wrap">
     <div class="nexmoe-widget nexmoe-search">
-        <form id="search_form" action_e="https://cn.bing.com/search?q=site:nexmoe.com  https://www.google.com/search?q={https://13551330961.github.io/}" onsubmit="return search();">
+        <form id="search_form" action_e="https://cn.bing.com/search?q=" onsubmit="return search();">
             <label><input id="search_value" name="q" type="search" placeholder="搜索"></label>
         </form>
     </div>
@@ -104,7 +99,7 @@
             <i class="nexmoefont icon-github"></i>
         </a><a class="mdui-ripple" href="https://weibo.com/5315683820/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" target="_blank" mdui-tooltip="{content: '微博'}" style="color: rgb(255, 0, 0);background-color: rgba(25, 23, 23, .15);">
             <i class="nexmoefont icon-weibo"></i>
-        </a><a class="mdui-ripple" href="/%3Ca%20target=%22_blank%22%20href=%22http:/wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes%22%3E%3Cimg%20border=%220%22%20src=%22http:/wpa.qq.com/pa?p=2::52%22%20alt=%22%E7%82%B9%E5%87%BB%E8%BF%99%E9%87%8C%E7%BB%99%E6%88%91%E5%8F%91%E6%B6%88%E6%81%AF%22%20title=%22%E7%82%B9%E5%87%BB%E8%BF%99%E9%87%8C%E7%BB%99%E6%88%91%E5%8F%91%E6%B6%88%E6%81%AF%22/%3E%3C/a%3E" target="_blank" mdui-tooltip="{content: 'QQ'}" style="color: rgb(0, 191, 255);background-color: rgba(25, 23, 23, .15);">
+        </a><a class="mdui-ripple" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes" target="_blank" mdui-tooltip="{content: 'QQ'}" style="color: rgb(0, 191, 255);background-color: rgba(25, 23, 23, .15);">
             <i class="nexmoefont icon-QQ"></i>
         </a>
     </div>
@@ -114,12 +109,20 @@
 
   
   
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">标签云</h3>
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/hexo%E6%90%AD%E5%BB%BA/" style="font-size: 10px;">hexo搭建</a>
+    </div>
+    
+  </div>
+
   
   
   <div class="nexmoe-widget-wrap">
     <h3 class="nexmoe-widget-title">文章归档</h3>
     <div class="nexmoe-widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">四月 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">五月 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">四月 2020</a></li></ul>
     </div>
   </div>
 
@@ -136,6 +139,29 @@
   <div id="nexmoe-content">
     <div class="nexmoe-primary">
         <section class="nexmoe-posts">
+    
+    <div class="nexmoe-post">
+        <a href="/2020/05/02/PY.html/">
+            
+                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 54.166666666666664%;"> 
+                    <img data-src="https://s1.ax1x.com/2020/05/02/JjfIjP.jpg" data-sizes="auto" alt="关于hexo的搭建" class="lazyload">
+                    <h1>关于hexo的搭建</h1>
+                </div>
+            
+        </a>
+
+        <div class="nexmoe-post-meta nexmoe-rainbow">
+            <a><i class="nexmoefont icon-calendar-fill"></i>2020年05月02日</a>
+            <a><i class="nexmoefont icon-areachart"></i>14 字</a>
+            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
+        </div>
+
+        <article>
+            
+                <hr>
+            
+        </article>
+    </div>
     
     <div class="nexmoe-post">
         <a href="/2020/04/30/hello-world/">
@@ -156,19 +182,6 @@
         <article>
             
                 <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
             
         </article>
     </div>
@@ -179,7 +192,7 @@
   </div>
   <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js,gh/nexmoe/nexmoe.github.io@latest/js/app.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-<!--<script src="/js/app.js?v=1588339607805"></script>-->
+<!--<script src="/js/app.js?v=1588391743489"></script>-->
 
 
     <script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
