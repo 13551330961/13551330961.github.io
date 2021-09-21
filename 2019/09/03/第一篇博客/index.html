@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+  
+  <title>第一次写博客 - 瓜西的博客</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="记录进步">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  
+  
+
+  <link rel="shortcut icon" href="https://s1.ax1x.com/2020/06/07/t2aHCF.png" type="image/png" />
+  <meta name="description" content="我第一次写博客,了解markdown语法，以及程序管理工具。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="第一次写博客">
+<meta property="og:url" content="http://yoursite.com/child/2019/09/03/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/index.html">
+<meta property="og:site_name" content="瓜西的博客">
+<meta property="og:description" content="我第一次写博客,了解markdown语法，以及程序管理工具。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190911203414787-2120027472.gif">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190910215418900-452873606.gif">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190910224422160-1233303004.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190910224517519-932500334.png">
+<meta property="article:published_time" content="2019-09-03T01:35:44.000Z">
+<meta property="article:modified_time" content="2021-09-21T10:10:22.508Z">
+<meta property="article:author" content="瓜西">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190911203414787-2120027472.gif">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/nexmoe/nexmoe.github.io@latest/css/style.css,npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/nexmoe/nexmoe.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/nexmoe/nexmoe.github.io@latest/lib/iconfont/iconfont.css" crossorigin>
+  
+    <link rel="stylesheet" href="at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
+  
+  <!--<link rel="stylesheet" href="/css/style.css?v=1632223618763">-->
+
+   
+    <style>
+      .nexmoe-avatar img:hover {
+        -webkit-transform: rotateZ(360deg);
+        -moz-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+      }	
+    </style>
+  
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body class="mdui-drawer-body-left">
+  
+  <div id="nexmoe-background">
+    <div class="nexmoe-bg" style="background-image: url(https://s1.ax1x.com/2020/05/01/JXMR4P.jpg)"></div>
+    <div class="mdui-appbar mdui-shadow-0">
+      <div class="mdui-toolbar">
+        <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+        <div class="mdui-toolbar-spacer"></div>
+        <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+        <a href="/" title="瓜西" class="mdui-btn mdui-btn-icon"><img src="https://s1.ax1x.com/2020/05/01/JXQTxO.jpg# 网站 Logo" alt="瓜西"></a>
+       </div>
+    </div>
+  </div>
+  <div id="nexmoe-header">
+      <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="瓜西">
+            <img src="https://s1.ax1x.com/2020/05/01/JXQTxO.jpg# 网站 Logo" alt="瓜西" alt="瓜西">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>5</div>
+        <div><span>标签</span>1</div>
+        <div><span>分类</span>0</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/archives" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+  
+  <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+        <form id="search_form" action_e="https://cn.bing.com/search?q=" onsubmit="return search();">
+            <label><input id="search_value" name="q" type="search" placeholder="搜索"></label>
+        </form>
+    </div>
+</div>
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">社交按钮</h3>
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://space.bilibili.com/345215812" target="_blank" mdui-tooltip="{content: '哔哩哔哩'}" style="color: rgb(231, 106, 141);background-color: rgba(231, 106, 141, .15);">
+            <i class="nexmoefont icon-bilibili"></i>
+        </a><a class="mdui-ripple" href="https://github.com/13551330961" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(0, 0, 0);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a><a class="mdui-ripple" href="https://weibo.com/5315683820/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" target="_blank" mdui-tooltip="{content: '微博'}" style="color: rgb(255, 0, 0);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-weibo"></i>
+        </a><a class="mdui-ripple" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes" target="_blank" mdui-tooltip="{content: 'QQ'}" style="color: rgb(0, 191, 255);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-QQ"></i>
+        </a>
+    </div>
+</div>
+  
+  
+
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">标签云</h3>
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/hexo%E6%90%AD%E5%BB%BA/" style="font-size: 10px;">hexo搭建</a>
+    </div>
+    
+  </div>
+
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章归档</h3>
+    <div class="nexmoe-widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">九月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">九月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">一月 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2021 瓜西
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://nexmoe.com/hexo-theme-nexmoe.html" target="_blank">Nexmoe</a>
+    </div>
+</div><!-- .nexmoe-drawer -->
+  </div>
+  <div id="nexmoe-content">
+    <div class="nexmoe-primary">
+        <div class="nexmoe-post">
+  
+      <div class="nexmoe-post-cover" style="padding-bottom: 54.166666666666664%;"> 
+          <img data-src="https://z3.ax1x.com/2021/09/21/4Y3MM6.jpg" data-sizes="auto" alt="第一次写博客" class="lazyload">
+          <h1>第一次写博客</h1>
+      </div>
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2019年09月03日</a>
+    <a><i class="nexmoefont icon-areachart"></i>2k 字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 7 分钟</a>
+</div>
+
+  <div class="nexmoe-post-right">
+    
+      <div class="nexmoe-fixed">
+        <div class="nexmoe-valign">
+            <div class="nexmoe-toc">
+                <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#我第一次写博客-了解markdown语法，以及程序管理工具。"><span class="toc-number">1.</span> <span class="toc-text"> 我第一次写博客,了解markdown语法，以及程序管理工具。</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Welcome-to-My-Blog"><span class="toc-number"></span> <span class="toc-text">Welcome to My Blog</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#第一次作业要求和准备"><span class="toc-number"></span> <span class="toc-text">第一次作业要求和准备</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#一-个人信息"><span class="toc-number"></span> <span class="toc-text">一.个人信息</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#二-阅读与思考"><span class="toc-number"></span> <span class="toc-text">二.阅读与思考</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三-提有质量的问题？"><span class="toc-number"></span> <span class="toc-text">三.提有质量的问题？</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#四-了解和调查源程序版本管理工具？"><span class="toc-number"></span> <span class="toc-text">四.了解和调查源程序版本管理工具？</span></a>
+            </div>
+        </div>
+      </div>
+    
+  </div>
+
+  <article>
+    <h2 id="我第一次写博客-了解markdown语法，以及程序管理工具。"><a href="#我第一次写博客-了解markdown语法，以及程序管理工具。" class="headerlink" title=" 我第一次写博客,了解markdown语法，以及程序管理工具。"></a> 我第一次写博客,了解markdown语法，以及程序管理工具。</h2><a id="more"></a>
+
+<h1 id="Welcome-to-My-Blog"><a href="#Welcome-to-My-Blog" class="headerlink" title="Welcome to My Blog"></a><span style="color:Purple"><a href="https://www.cnblogs.com/wobuhuiqiao/" target="_blank" rel="noopener">Welcome to My Blog</a></span></h1><h1 id="第一次作业要求和准备"><a href="#第一次作业要求和准备" class="headerlink" title="第一次作业要求和准备"></a><span style="color:    CornflowerBlue">第一次作业要求和准备</span></h1><table>
+<thead>
+<tr>
+<th align="left"><strong>这次作业属于那个课程</strong></th>
+<th align="left"><strong><a href="https://edu.cnblogs.com/campus/xnsy/SoftwareEngineeringClass1/homework/2713" target="_blank" rel="noopener">18软件工程基础</a></strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>这个作业的要求在哪里</strong></td>
+<td align="left"><a href="https://www.cnblogs.com/harry240/p/11469058.html" target="_blank" rel="noopener">emmmm…..你猜</a></td>
+</tr>
+<tr>
+<td align="left"><strong>我这个课程的目标是</strong></td>
+<td align="left"><strong>&lt;使用此编译器写一篇博客，明确目标和方向&gt;</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>这个作业在哪个具体方面帮助我实现目标</strong></td>
+<td align="left"><strong>&lt;实践和借鉴前人的经验&gt;</strong></td>
+</tr>
+</tbody></table>
+<h1 id="一-个人信息"><a href="#一-个人信息" class="headerlink" title="一.个人信息"></a><span style="color:    OrangeRed">一.个人信息</span></h1><table>
+<thead>
+<tr>
+<th align="left"><strong>ID</strong></th>
+<th align="left"><strong>&lt;我真的不会敲&gt;</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>QQ</strong></td>
+<td align="left"><a href="https://user.qzone.qq.com/1803067286?ADUIN=1803067286&ADSESSION=1568128739&ADTAG=CLIENT.QQ.5653_MyTip.0&ADPUBNO=26927&source=namecardhoverstar" target="_blank" rel="noopener"><strong><span style="color:    OrangeRed">1803067286</span></strong></a></td>
+</tr>
+<tr>
+<td align="left"><strong>微博</strong></td>
+<td align="left"><a href="https://s.weibo.com/user?q=%E6%9A%96%E5%B1%B1%E7%9F%B3%E5%BE%84%E6%96%9C&Refer=weibo_user" target="_blank" rel="noopener"><strong><span style="color:    OrangeRed">暖山石径斜</strong></a></td>
+</tr>
+<tr>
+<td align="left"><strong>爱好</strong></td>
+<td align="left"><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190911203414787-2120027472.gif" alt="" class="lazyload"></td>
+</tr>
+</tbody></table>
+<h1 id="二-阅读与思考"><a href="#二-阅读与思考" class="headerlink" title="二.阅读与思考"></a><span style="color:    OrangeRed">二.阅读与思考</span></h1><p><font size="5"><strong><span style="color:    darkorange">当初是如何做出选择现在专业的决定的？</span></strong></font><br /> </p>
+<p><strong>高考填志愿并没有多想，认为计算机专业特火爆，就选择了计算机专业。后来发现对逻辑思维能力要求很高，数学能力要求很强，古人云：“既来之则安之”加油！我开冲了！</strong></p>
+<p><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190910215418900-452873606.gif" alt="" class="lazyload"></p>
+<p><font size="5"><strong><span style="color:    darkorange">·过去一年的课程是否符合你对你自己所在专业的期待呢？</span></strong></font><br /> </p>
+<p><strong>课程知识已经超出了自己的吸收范围了，总体来说我认为，计算机专业真的是一个考验动手能力的专业。计算机专业需要不断去实践，不断去亲自动手敲代码。大二了，应该开始更加注重自己的专业能力，多敲代码，通过对理论的课程学习，为以后打下良好的基础。</strong></p>
+<p><font size="5"><strong><span style="color:    darkorange">·你觉得你所在的专业是你喜欢的领域吗，它是你擅长的领域吗</span></strong></font><br /> </p>
+<p><strong>其实还好啦，计算机是一个特有“钱途”的行业，至于喜不喜欢，我觉得在于擅不擅长。只要做出成就感，我觉得一定会喜欢上这个专业的。而且我觉得可能在于不太了解这个行业，需要不断努力提升自己的专业技能，只要够强就会喜欢。</strong></p>
+<p><font size="5"><strong><span style="color:    darkorange">·将来你会选择从事和你专业相关的工作吗？是的话给出你想去的城市、公司和岗位，否的话给出原因。</span></strong></font><br /> </p>
+<p><strong>有合适的工作话，我当然想从事和自己相关专业的工作，当然万事得做两手准备，说不定以后就从事了其他行业。如果可以去IT公司工作的话，我想留在成都，深圳，做一个踏踏实实的不秃头程序员。最想去的公司是腾讯，阿里啥的。不过我觉得太难了，不过万一呢？万一？</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190910224422160-1233303004.png" alt="" class="lazyload">)<img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190910224517519-932500334.png" alt="" class="lazyload"></p>
+<p><font size="5"><strong><span style="color:    darkorange">·自我感觉你已经具备的专业知识、技能、能力有哪些？已经写过的代码量是多少？描述你做的最复杂的项目/作业</span></strong></font><br /><br><strong>我只会C语言，并且不是很精通，学过数据结构，但是没有实践经验。代码量差不多3000行，做过最复杂的项目是贪吃蛇大作战，是上学期程序设计课上我所接触过最大的工程了。这学期准备接触一些大工程！冲鸭！！！！</strong></p>
+<p><font size="5"><strong><span style="color:    darkorange">·离成为一个合格的本科毕业生，在专业知识、技能、能力上还差距哪些？</span></strong></font><br /> </p>
+<p><strong>我觉得我还差得太远了在专业知识上欠缺了太多，需要大大的努力才可以达到一个合格本科生的水平！冲鸭！应该深入了解一门语言如JAVA C++之类的语言！熟悉数据结构，对软件开发的流程有所了解</strong></p>
+<p><font size="5"><strong><span style="color:    darkorange">·对照以上你阅读的前人们的经历，你的选择是什么？</span></strong></font><br /> </p>
+<p><strong>我觉得我会选择工作，因为我更相信在工作中才可以实现自己的目标(赚钱)，分担家庭压力，努力工作才可以创造自己的幸福！当然对于更多的智力劳动我还是很缺失，应该在这方面加油，努力创造自己的美好幸福生活加油！</strong></p>
+<p><font size="5"><strong><span style="color:    darkorange">·在这种选择下，你认为你相比其他同学来说有何优势，有何劣势？</span></strong></font><br /> </p>
+<p><strong>1.可以早点积累工作经验，努力赚钱。</strong><br><strong>2.可以向前辈们学习到跟多的东西。</strong><br><strong>3.不考研可能丧失学习的机会，让未来有遗憾。</strong><br><strong>4.专业未来可能面临短板。</strong></p>
+<p><font size="5"><strong><span style="color:    darkorange">·你对于实现自己的梦想已经做了或者计划做什么样的准备？？</span></strong></font><br /><br><strong>谁的青春不迷惘…有些时候并不是我们不愿意努力，反而更喜欢堕落。也许未来实在太迷惘了，没有目标，方向….现在可以做的就是明确目标和方向吧，努力学习专业知识吧，经常和大佬交流学习，希望在以后的学习中，爱上这个专业。并且让计算机专业成为一种谋生的技能。</strong></p>
+<h1 id="三-提有质量的问题？"><a href="#三-提有质量的问题？" class="headerlink" title="三.提有质量的问题？"></a><strong><span style="color:    darkorange">三.提有质量的问题？</span></strong></h1><p>1.<strong>《构建之法》中17页有谈到软件的需求，软件需求需要对市场人口进行大量的调查分析，那么在软件开发的过程中怎么保障软件的实用性不过时？</strong><br>2.<strong>第五章91页谈到了软件团队模式，那团队模式和团队开发模式有啥关系呢？</strong><br>3.<strong>第156页提到了软件需求分析，我们都知道软件需求分析是软件是否可以进入市场的关键所在，那么在讨论明晰定义归类排序的过程中，对用户的调查？我们应该针对那些人群？怎么提问更准确？</strong><br>4.<strong>3教材P266页写到评价一个软件好坏的的标准通过用户的评价以及业内制定的标准？那么这种标准会随时改变吗？</strong><br>5.<strong>在《构建之法》中我们提到绩效管理，这是我们最感兴趣的一部份，那么我们仅仅是通过工作质量来衡量吗？还是比资历？效率？评比？贡献度？如何权衡这些因素呢？</strong></p>
+<h1 id="四-了解和调查源程序版本管理工具？"><a href="#四-了解和调查源程序版本管理工具？" class="headerlink" title="四.了解和调查源程序版本管理工具？"></a><strong><span style="color:    darkorange">四.了解和调查源程序版本管理工具？</span></strong></h1><table>
+<thead>
+<tr>
+<th align="left"><strong>管理软件名称</strong></th>
+<th align="left"><strong>优点</strong></th>
+<th align="left"><strong>缺点</strong></th>
+<th align="left"><strong>资料链接</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>Git</strong></td>
+<td align="left"><strong>更加适合分布式开发，强调个体的开发。 公共服务器压力和数据量都不会太大。速度快、灵活。任意两个开发者之间可以很容易的解决冲突。</strong></td>
+<td align="left"><strong>学习周期相对而言比较长。不符合常规思维。代码保密性差。一旦开发者把整个库克隆下来就可以完全公开所有代码和版本信息</strong></td>
+<td align="left"><a href="https://www.cnblogs.com/bgwhite/p/9403233.html" target="_blank" rel="noopener"> <strong><span style="color:Purple">狗尾草的博客</span></strong></a></td>
+</tr>
+<tr>
+<td align="left"><strong>GitHub</strong></td>
+<td align="left"><strong>完整的支持Markdown语言，而且支持Emoji表情。支持直接复制图片到页面，会自动上传图片(非常好的功能，知乎也支持</strong></td>
+<td align="left"><strong>免费套餐不支持私有项目，无非解决企业内部的需求，github:fi价格过高（最便宜要$5,000/年）基于git，学习曲线陡峭，企业大规模用git根本不现实</strong></td>
+<td align="left"><a href="https://www.cnblogs.com/yilinwei/p/5283675.html" target="_blank" rel="noopener"> <strong><span style="color:Purple">Tulipbaby的博客</span></strong></a></td>
+</tr>
+<tr>
+<td align="left"><strong>Rational</strong></td>
+<td align="left"><strong>提高了团队生产力，在迭代的开发过程、需求管理、基于组建的体系结构、可视化软件建模、验证软件质量及控制软件变更等方面、针对所有关键的开发活动为每个开发成员提供了必要的准则、模版和工具指导，并确保全体成员共享相同的知识基础。它简历了简洁和清晰的过程结构，为开发过程提供较大的通用性</strong></td>
+<td align="left"><strong>RUP只是一个开发过程，并没有涵盖软件过程的全部内容，例如它缺少关于软件运行和支持等方面的内容，此外，它没有支持多项目的开发结构，这在一定程度上降低了在开发组织内大范围实现重用的可能性。</strong></td>
+<td align="left"><a href="https://www.cnblogs.com/lyj99pretty/p/11488069.html" target="_blank" rel="noopener"> <strong><span style="color:Purple">浅火的博客</span></strong></a></td>
+</tr>
+</tbody></table>
+
+  </article>
+
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+    
+</div>
+
+  <div class="nexmoe-post-footer">
+    
+      
+  <div class="nexmoe-post-copyright">
+    <strong>本文作者：</strong>瓜西<br>
+    <strong>本文链接：</strong><a href="http://yoursite.com/child/2019/09/03/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" title="http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;2019&#x2F;09&#x2F;03&#x2F;%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;2019&#x2F;09&#x2F;03&#x2F;%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2&#x2F;</a><br>
+    
+      <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+    
+  </div>
+
+
+    
+    <section class="nexmoe-comment">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80OTk0Mi8yNjQzMw==">
+    <script id="livere-comment-js">
+    (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+       if (typeof LivereTower === 'function') { return; }
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+       e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+    </script>
+</div>
+
+</section>
+  </div>
+</div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js,gh/nexmoe/nexmoe.github.io@latest/js/app.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!--<script src="/js/app.js?v=1632223618764"></script>-->
+
+
+    <script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
+
+
+
+  
+
+
+
+
+
+</body>
+
+</html>
