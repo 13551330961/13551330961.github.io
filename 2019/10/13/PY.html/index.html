@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+  
+  <title>结对编程 - 瓜西的博客</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="记录进步">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  
+  
+
+  <link rel="shortcut icon" href="https://s1.ax1x.com/2020/06/07/t2aHCF.png" type="image/png" />
+  <meta name="description" content="结对编程的初次体验">
+<meta property="og:type" content="article">
+<meta property="og:title" content="结对编程">
+<meta property="og:url" content="http://yoursite.com/child/2019/10/13/PY.html/index.html">
+<meta property="og:site_name" content="瓜西的博客">
+<meta property="og:description" content="结对编程的初次体验">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013173439746-2093460670.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013173647120-1149306159.jpg">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013192743407-2070807126.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013192829373-1665934908.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013192845965-1214110965.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013192857172-798377439.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013183853032-1024980098.jpg">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013185239215-1535861275.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013185626832-710511781.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013185857072-570960630.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013181953375-725138935.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013175714002-404535350.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013181351598-1715361840.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013191319505-306505495.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013191417133-684470283.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013191430311-673663889.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013191559196-1789499958.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013191631924-2124756239.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013191700945-1876363165.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013173325591-464872916.png">
+<meta property="article:published_time" content="2019-10-13T11:02:14.000Z">
+<meta property="article:modified_time" content="2021-09-21T13:43:00.713Z">
+<meta property="article:author" content="瓜西">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013173439746-2093460670.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/nexmoe/nexmoe.github.io@latest/css/style.css,npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/nexmoe/nexmoe.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/nexmoe/nexmoe.github.io@latest/lib/iconfont/iconfont.css" crossorigin>
+  
+    <link rel="stylesheet" href="at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
+  
+  <!--<link rel="stylesheet" href="/css/style.css?v=1632231952408">-->
+
+   
+    <style>
+      .nexmoe-avatar img:hover {
+        -webkit-transform: rotateZ(360deg);
+        -moz-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+      }	
+    </style>
+  
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body class="mdui-drawer-body-left">
+  
+  <div id="nexmoe-background">
+    <div class="nexmoe-bg" style="background-image: url(https://s1.ax1x.com/2020/05/01/JXMR4P.jpg)"></div>
+    <div class="mdui-appbar mdui-shadow-0">
+      <div class="mdui-toolbar">
+        <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+        <div class="mdui-toolbar-spacer"></div>
+        <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+        <a href="/" title="瓜西" class="mdui-btn mdui-btn-icon"><img src="https://s1.ax1x.com/2020/05/01/JXQTxO.jpg# 网站 Logo" alt="瓜西"></a>
+       </div>
+    </div>
+  </div>
+  <div id="nexmoe-header">
+      <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="瓜西">
+            <img src="https://s1.ax1x.com/2020/05/01/JXQTxO.jpg# 网站 Logo" alt="瓜西" alt="瓜西">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>8</div>
+        <div><span>标签</span>1</div>
+        <div><span>分类</span>0</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/archives" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+  
+  <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+        <form id="search_form" action_e="https://cn.bing.com/search?q=" onsubmit="return search();">
+            <label><input id="search_value" name="q" type="search" placeholder="搜索"></label>
+        </form>
+    </div>
+</div>
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">社交按钮</h3>
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://space.bilibili.com/345215812" target="_blank" mdui-tooltip="{content: '哔哩哔哩'}" style="color: rgb(231, 106, 141);background-color: rgba(231, 106, 141, .15);">
+            <i class="nexmoefont icon-bilibili"></i>
+        </a><a class="mdui-ripple" href="https://github.com/13551330961" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(0, 0, 0);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a><a class="mdui-ripple" href="https://weibo.com/5315683820/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" target="_blank" mdui-tooltip="{content: '微博'}" style="color: rgb(255, 0, 0);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-weibo"></i>
+        </a><a class="mdui-ripple" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes" target="_blank" mdui-tooltip="{content: 'QQ'}" style="color: rgb(0, 191, 255);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-QQ"></i>
+        </a>
+    </div>
+</div>
+  
+  
+
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">标签云</h3>
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/hexo%E6%90%AD%E5%BB%BA/" style="font-size: 10px;">hexo搭建</a>
+    </div>
+    
+  </div>
+
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章归档</h3>
+    <div class="nexmoe-widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">九月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">十二月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">十月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">九月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">一月 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2021 瓜西
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://nexmoe.com/hexo-theme-nexmoe.html" target="_blank">Nexmoe</a>
+    </div>
+</div><!-- .nexmoe-drawer -->
+  </div>
+  <div id="nexmoe-content">
+    <div class="nexmoe-primary">
+        <div class="nexmoe-post">
+  
+      <div class="nexmoe-post-cover" style="padding-bottom: 54.166666666666664%;"> 
+          <img data-src="https://z3.ax1x.com/2021/09/21/4t1Yy6.jpg" data-sizes="auto" alt="结对编程" class="lazyload">
+          <h1>结对编程</h1>
+      </div>
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2019年10月13日</a>
+    <a><i class="nexmoefont icon-areachart"></i>1.2k 字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 5 分钟</a>
+</div>
+
+  <div class="nexmoe-post-right">
+    
+      <div class="nexmoe-fixed">
+        <div class="nexmoe-valign">
+            <div class="nexmoe-toc">
+                <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#结对编程的初次体验"><span class="toc-number">1.</span> <span class="toc-text">结对编程的初次体验</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Welcome-to-My-Blog"><span class="toc-number"></span> <span class="toc-text">[Welcome to My Blog]</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#第四次作业结对编程"><span class="toc-number"></span> <span class="toc-text">第四次作业结对编程</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#二-计算模块接口的设计与实现过程"><span class="toc-number"></span> <span class="toc-text">二. 计算模块接口的设计与实现过程</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三-代码复审"><span class="toc-number"></span> <span class="toc-text">三.代码复审</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#四-性能分析"><span class="toc-number"></span> <span class="toc-text">四.  性能分析</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#五-单元测试"><span class="toc-number"></span> <span class="toc-text">五. 单元测试</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#六-异常处理（参考队友）"><span class="toc-number"></span> <span class="toc-text">六.异常处理（参考队友）</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#七-结对的过程"><span class="toc-number"></span> <span class="toc-text">七.结对的过程</span></a>
+            </div>
+        </div>
+      </div>
+    
+  </div>
+
+  <article>
+    <h2 id="结对编程的初次体验"><a href="#结对编程的初次体验" class="headerlink" title="结对编程的初次体验"></a>结对编程的初次体验</h2><a id="more"></a>
+<meta name="referrer" content="no-referrer" />
+
+
+
+<h1 id="Welcome-to-My-Blog"><a href="#Welcome-to-My-Blog" class="headerlink" title="[Welcome to My Blog]"></a><span style="color:Purple">[Welcome to My Blog]</span></h1><h1 id="第四次作业结对编程"><a href="#第四次作业结对编程" class="headerlink" title="第四次作业结对编程"></a><span style="color:    CornflowerBlue">第四次作业结对编程</span></h1><table>
+<thead>
+<tr>
+<th align="left"><strong>Github项目地址</strong></th>
+<th align="left"><strong><a href="https://github.com/Misizu-star/WordCount.git" target="_blank" rel="noopener">Github地址</a></strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>结对伙伴</strong></td>
+<td align="left"><a href="https://www.cnblogs.com/fox5250/" target="_blank" rel="noopener">黄天兵201831061126的博客</a></td>
+</tr>
+<tr>
+<td align="left"><span style="color:    OrangeRed">一.PSP表格</span></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">==</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013173439746-2093460670.png" alt="" class="lazyload"></td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<h1 id="二-计算模块接口的设计与实现过程"><a href="#二-计算模块接口的设计与实现过程" class="headerlink" title="二. 计算模块接口的设计与实现过程"></a><span style="color:    OrangeRed">二. 计算模块接口的设计与实现过程</span></h1><p><strong>①代码结构：</strong><br>程序由一个 wordsCount 类, main() 主函数和 Getop(string cmd) 获取命令参数函数构成。其中 wordCount 类成员中含 Char_num() 、 Lines_num() 等函数。思维导图如下：<br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013173647120-1149306159.jpg" alt="" class="lazyload"><br><strong>②.关键函数实现：</strong><br><strong>int wordsCount::Char_num()</strong> ：获取ascii数</p>
+<p>获取输入文件路径后，通过对文件内容逐个读取，并只对ASCII码进行计数。</p>
+<p><strong>int wordsCount::Lines_num()</strong>：获取文件行数</p>
+<p>使用 getline() 函数获取文件的每一行对行数进行计数。</p>
+<p>void wordsCount::GetWords()、int wordsCount::Words_num() 、void wordsCount::Sort_words_rate()</p>
+<p>由于对单词时有额外的要求：单词计数，按照出现频率和字典排序，以小写输出。所以使用多个函数实现：<br><strong>(1) void wordsCount::GetWords()</strong> :逐个读取文件字符，将所有符合要求的“单词”提取出来，转为小写形式后（使用 algorithm 头文件中的 transform() 函数 ），存放在一个 vector&lt; string &gt; 容器中。<br><strong>(2) void wordsCount::Sort_words_rate()</strong>：对于统计词频首先想到的是用 pair&lt;string , int&gt; 记录词频，排序则使用algorithm头文件下的 sort() 函数。于是乎为了方便统计词频，先排序，使相同的单词在一块儿，再统计词频，统计好的词频存放在 vector&lt;pair&lt;string , int&gt;&gt; 中，再对其词频进行排序。（sort()函数中第三个参数提供了自定义排序标准）<br><strong>main(int argc, char *argv[])</strong> :主函数</p>
+<p>main()函数主要接受用户从操作系统传入的参数，参数通过Getop()函数解析后执行不同的输出。</p>
+<p><strong>③.编程思想体现</strong><br>Interface Design:</p>
+<p>对于接口的设计，我们将wordCount这个类中所有属性和成员函数的定义与实现分开</p>
+<p>Information Hiding：</p>
+<p>信息隐藏，简单地说就是是否可见是否与可用。<br>不可见不可用：<br>我们将类的属性和成员定义放在wordCount.h的头文件中，实现部分放在wordCount.cpp中，使类中内容对外部而全然隐藏。<br>可见不可用：<br>通过使用private、protect对类中成员和属性进行修饰。包含头文件后，即使能看到这些属性，却无法使用它们<br><strong>④效果展示</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013192743407-2070807126.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013192829373-1665934908.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013192845965-1214110965.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013192857172-798377439.png" alt="" class="lazyload"></p>
+<h1 id="三-代码复审"><a href="#三-代码复审" class="headerlink" title="三.代码复审"></a><span style="color:    OrangeRed">三.代码复审</span></h1><p><strong>①编码规范：</strong><br>我们采用的是Google的C++编码规范<br><a href="https://zh-google-styleguide.readthedocs.io/en/latest/google-cpp-styleguide/" target="_blank" rel="noopener">中文版</a><br><a href="https://blog.csdn.net/xiexievv/article/details/50972809" target="_blank" rel="noopener">Google C++编码规范</a><br><strong>②复审过程：</strong><br><strong>Vs2017具备强大的努力的复审功能，可以进行智能缩进，大大提高了规范性。vs2017是真的功能强大。</strong> </p>
+<p><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013183853032-1024980098.jpg" alt="" class="lazyload"></p>
+<h1 id="四-性能分析"><a href="#四-性能分析" class="headerlink" title="四.  性能分析"></a><span style="color:    OrangeRed">四.  性能分析</h1><p><strong><a href="https://www.cnblogs.com/ChildishChange/p/10398212.html" target="_blank" rel="noopener">性能分析参考文献Part6</a></strong></p>
+<p><strong>根据参考文献我们对代码稍微做改动，使它陷入循环，VS2017自带的“性能探查器”真的好用</strong></p>
+<p><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013185239215-1535861275.png" alt="" class="lazyload"><br><strong>性能分析报告：</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013185626832-710511781.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013185857072-570960630.png" alt="" class="lazyload"></p>
+<h1 id="五-单元测试"><a href="#五-单元测试" class="headerlink" title="五. 单元测试"></a><span style="color:    OrangeRed">五. 单元测试</span></h1><p><strong><a href="https://www.cnblogs.com/ChildishChange/p/10398212.html" target="_blank" rel="noopener">单元测试参考文献Part3</a></strong><br><strong>①出现问题：在按照上面文献的步骤流程做完以后，发现测试还是没有通过</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013181953375-725138935.png" alt="" class="lazyload"></p>
+<p><strong>②解决问题：测试代码也肯定没有问题。经过不断的摸索，发现原来是测试用的文件应该放在这里头</strong></p>
+<p><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013175714002-404535350.png" alt="" class="lazyload"><br><strong>③总结：测试中的待打开的文件不能与代码放在一起，需要放在与后缀为“.exe”相同的路径下。</strong><br><strong>④测试结果：由于水平有限，只测试了几个函数，并且经过长时间摸索还是解决了问题。通过了测试。<br>测试的几个函数：Char_num()，int Lines_num()，int Words_num()；终于还是通过了测试</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013181351598-1715361840.png" alt="" class="lazyload"></p>
+<h1 id="六-异常处理（参考队友）"><a href="#六-异常处理（参考队友）" class="headerlink" title="六.异常处理（参考队友）"></a><span style="color:    OrangeRed">六.异常处理</span><a href="https://www.cnblogs.com/fox5250/" target="_blank" rel="noopener">（参考队友）</a></h1><p><strong>1.抛出异常:</strong><br><strong>·文件打开失败：</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013191319505-306505495.png" alt="" class="lazyload"><br><strong>·用户未输入参数、参数个数错误、参数不包含“-i”和“-o”:</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013191417133-684470283.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013191430311-673663889.png" alt="" class="lazyload"><br><strong>·检查“-n”和“-m”后面的参数是否为数字：<br>在程序中使用了stoi()函数实现字符串转整型，若转换失败则会自动抛出异常。</strong><br><strong>2.捕获异常：</strong><br><strong>使用try-catch对异常进行捕获</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013191559196-1789499958.png" alt="" class="lazyload"><br><strong>3.测试结果：</strong><br><strong>①错误输入</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013191631924-2124756239.png" alt="" class="lazyload"><br><strong>②正确输入</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013191700945-1876363165.png" alt="" class="lazyload"></p>
+<h1 id="七-结对的过程"><a href="#七-结对的过程" class="headerlink" title="七.结对的过程"></a><span style="color:    OrangeRed">七.结对的过程</span></h1><p><strong>①感受：</strong><br><strong>我和我室友黄天兵同学进行结对编程，两个人相互讨论的模式其实以前也有用到，不过这次的更加全面完善，我们确实感觉到了1+1&gt;2的效果。队友的代码量大大高于我，能力也强。我更多的时间花在了代码的单元测试上。但是通过这次结对编程确实也感觉到了自己和大佬的差距，也复习了以前没搞清楚的有关字符的知识点。伙伴的坚持精神也深深感染了我。还是那句老话“革命还未成功，同志还需努力。最后感谢”</strong><br><strong>②照片：</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201910/1784293-20191013173325591-464872916.png" alt="" class="lazyload"></p>
+
+  </article>
+
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+    
+</div>
+
+  <div class="nexmoe-post-footer">
+    
+      
+  <div class="nexmoe-post-copyright">
+    <strong>本文作者：</strong>瓜西<br>
+    <strong>本文链接：</strong><a href="http://yoursite.com/child/2019/10/13/PY.html/" title="http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;2019&#x2F;10&#x2F;13&#x2F;PY.html&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;2019&#x2F;10&#x2F;13&#x2F;PY.html&#x2F;</a><br>
+    
+      <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+    
+  </div>
+
+
+    
+    <section class="nexmoe-comment">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80OTk0Mi8yNjQzMw==">
+    <script id="livere-comment-js">
+    (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+       if (typeof LivereTower === 'function') { return; }
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+       e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+    </script>
+</div>
+
+</section>
+  </div>
+</div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js,gh/nexmoe/nexmoe.github.io@latest/js/app.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!--<script src="/js/app.js?v=1632231952409"></script>-->
+
+
+    <script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
+
+
+
+  
+
+
+
+
+
+</body>
+
+</html>
