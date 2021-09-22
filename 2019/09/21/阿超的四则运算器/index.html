@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+  
+  <title>阿超的四则运算器 - 瓜西的博客</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="记录进步">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  
+  
+
+  <link rel="shortcut icon" href="https://s1.ax1x.com/2020/06/07/t2aHCF.png" type="image/png" />
+  <meta name="description" content="本次作业结合需求，设计程序，解决问题。学会使用github管理代码。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="阿超的四则运算器">
+<meta property="og:url" content="http://yoursite.com/child/2019/09/21/%E9%98%BF%E8%B6%85%E7%9A%84%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97%E5%99%A8/index.html">
+<meta property="og:site_name" content="瓜西的博客">
+<meta property="og:description" content="本次作业结合需求，设计程序，解决问题。学会使用github管理代码。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921134535161-1789139996.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921134717931-1431897043.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921134906316-665967061.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921150746569-722752306.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921143935622-103356182.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921145707463-1583330641.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921145734104-184329087.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921151757670-736483476.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921153119413-2086167409.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921151605848-238484712.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921153804540-1165914965.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921154000671-1277934268.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182659454-2068317092.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182808374-1852846084.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182835193-1862729946.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182848237-746186163.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182907431-1607290392.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182920330-114490672.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182940052-980411774.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921155145706-670363226.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921155308605-1257920244.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921161546169-1810778527.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921155821684-1042522230.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921155853540-1364932042.png">
+<meta property="og:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921133616637-1416541154.gif">
+<meta property="article:published_time" content="2019-09-21T01:35:44.000Z">
+<meta property="article:modified_time" content="2021-09-22T02:27:52.135Z">
+<meta property="article:author" content="瓜西">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921134535161-1789139996.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/nexmoe/nexmoe.github.io@latest/css/style.css,npm/highlight.js@9.15.8/styles/atom-one-dark.css,gh/nexmoe/nexmoe.github.io@latest/lib/mdui_043tiny/css/mdui.css,gh/nexmoe/nexmoe.github.io@latest/lib/iconfont/iconfont.css" crossorigin>
+  
+    <link rel="stylesheet" href="at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
+  
+  <!--<link rel="stylesheet" href="/css/style.css?v=1632277705712">-->
+
+   
+    <style>
+      .nexmoe-avatar img:hover {
+        -webkit-transform: rotateZ(360deg);
+        -moz-transform: rotateZ(360deg);
+        transform: rotateZ(360deg);
+      }	
+    </style>
+  
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body class="mdui-drawer-body-left">
+  
+  <div id="nexmoe-background">
+    <div class="nexmoe-bg" style="background-image: url(https://s1.ax1x.com/2020/05/01/JXMR4P.jpg)"></div>
+    <div class="mdui-appbar mdui-shadow-0">
+      <div class="mdui-toolbar">
+        <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
+        <div class="mdui-toolbar-spacer"></div>
+        <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
+        <a href="/" title="瓜西" class="mdui-btn mdui-btn-icon"><img src="https://s1.ax1x.com/2020/05/01/JXQTxO.jpg# 网站 Logo" alt="瓜西"></a>
+       </div>
+    </div>
+  </div>
+  <div id="nexmoe-header">
+      <div class="nexmoe-drawer mdui-drawer" id="drawer">
+    <div class="nexmoe-avatar mdui-ripple">
+        <a href="/" title="瓜西">
+            <img src="https://s1.ax1x.com/2020/05/01/JXQTxO.jpg# 网站 Logo" alt="瓜西" alt="瓜西">
+        </a>
+    </div>
+    <div class="nexmoe-count">
+        <div><span>文章</span>8</div>
+        <div><span>标签</span>1</div>
+        <div><span>分类</span>0</div>
+    </div>
+    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/" title="回到首页">
+            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
+            <div class="mdui-list-item-content">
+                回到首页
+            </div>
+        </a>
+        
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/archives" title="文章归档">
+            <i class="mdui-list-item-icon nexmoefont icon-container"></i>
+            <div class="mdui-list-item-content">
+                文章归档
+            </div>
+        </a>
+        
+    </div>
+    <aside id="nexmoe-sidebar">
+  
+  <div class="nexmoe-widget-wrap">
+    <div class="nexmoe-widget nexmoe-search">
+        <form id="search_form" action_e="https://cn.bing.com/search?q=" onsubmit="return search();">
+            <label><input id="search_value" name="q" type="search" placeholder="搜索"></label>
+        </form>
+    </div>
+</div>
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">社交按钮</h3>
+    <div class="nexmoe-widget nexmoe-social">
+        <a class="mdui-ripple" href="https://space.bilibili.com/345215812" target="_blank" mdui-tooltip="{content: '哔哩哔哩'}" style="color: rgb(231, 106, 141);background-color: rgba(231, 106, 141, .15);">
+            <i class="nexmoefont icon-bilibili"></i>
+        </a><a class="mdui-ripple" href="https://github.com/13551330961" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(0, 0, 0);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-github"></i>
+        </a><a class="mdui-ripple" href="https://weibo.com/5315683820/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1" target="_blank" mdui-tooltip="{content: '微博'}" style="color: rgb(255, 0, 0);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-weibo"></i>
+        </a><a class="mdui-ripple" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes" target="_blank" mdui-tooltip="{content: 'QQ'}" style="color: rgb(0, 191, 255);background-color: rgba(25, 23, 23, .15);">
+            <i class="nexmoefont icon-QQ"></i>
+        </a>
+    </div>
+</div>
+  
+  
+
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">标签云</h3>
+    <div id="randomtagcloud" class="nexmoe-widget tagcloud nexmoe-rainbow">
+      <a href="/tags/hexo%E6%90%AD%E5%BB%BA/" style="font-size: 10px;">hexo搭建</a>
+    </div>
+    
+  </div>
+
+  
+  
+  <div class="nexmoe-widget-wrap">
+    <h3 class="nexmoe-widget-title">文章归档</h3>
+    <div class="nexmoe-widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/09/">九月 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/12/">十二月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/10/">十月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">九月 2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">一月 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+    <div class="nexmoe-copyright">
+        &copy; 2021 瓜西
+        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+        & <a href="https://nexmoe.com/hexo-theme-nexmoe.html" target="_blank">Nexmoe</a>
+    </div>
+</div><!-- .nexmoe-drawer -->
+  </div>
+  <div id="nexmoe-content">
+    <div class="nexmoe-primary">
+        <div class="nexmoe-post">
+  
+      <div class="nexmoe-post-cover" style="padding-bottom: 45%;"> 
+          <img data-src="https://z3.ax1x.com/2021/09/21/4Y87B8.jpg" data-sizes="auto" alt="阿超的四则运算器" class="lazyload">
+          <h1>阿超的四则运算器</h1>
+      </div>
+  
+  
+  <div class="nexmoe-post-meta nexmoe-rainbow" style="margin:10px 0!important;">
+    <a><i class="nexmoefont icon-calendar-fill"></i>2019年09月21日</a>
+    <a><i class="nexmoefont icon-areachart"></i>1.9k 字</a>
+    <a><i class="nexmoefont icon-time-circle-fill"></i>大概 8 分钟</a>
+</div>
+
+  <div class="nexmoe-post-right">
+    
+      <div class="nexmoe-fixed">
+        <div class="nexmoe-valign">
+            <div class="nexmoe-toc">
+                <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#本次作业结合需求，设计程序，解决问题。学会使用github管理代码。"><span class="toc-number">1.</span> <span class="toc-text">本次作业结合需求，设计程序，解决问题。学会使用github管理代码。</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Welcome-to-My-Blog"><span class="toc-number"></span> <span class="toc-text">[Welcome to My Blog]</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#第二次作业要求和准备"><span class="toc-number"></span> <span class="toc-text">第二次作业要求和准备</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#一-环境的配置"><span class="toc-number"></span> <span class="toc-text">一.环境的配置</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#二-代码的设计"><span class="toc-number"></span> <span class="toc-text">二.代码的设计</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#三-使用github克隆项目及提交代码"><span class="toc-number"></span> <span class="toc-text">三.使用github克隆项目及提交代码</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#四-对项目进行单元测试和回归测试"><span class="toc-number"></span> <span class="toc-text">四.对项目进行单元测试和回归测试</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#五-我本次作业的感想"><span class="toc-number"></span> <span class="toc-text">五.我本次作业的感想</span></a>
+            </div>
+        </div>
+      </div>
+    
+  </div>
+
+  <article>
+    <h2 id="本次作业结合需求，设计程序，解决问题。学会使用github管理代码。"><a href="#本次作业结合需求，设计程序，解决问题。学会使用github管理代码。" class="headerlink" title="本次作业结合需求，设计程序，解决问题。学会使用github管理代码。"></a>本次作业结合需求，设计程序，解决问题。学会使用github管理代码。</h2><a id="more"></a>
+<meta name="referrer" content="no-referrer" />
+
+<h1 id="Welcome-to-My-Blog"><a href="#Welcome-to-My-Blog" class="headerlink" title="[Welcome to My Blog]"></a><span style="color:Purple">[Welcome to My Blog]</span></h1><h1 id="第二次作业要求和准备"><a href="#第二次作业要求和准备" class="headerlink" title="第二次作业要求和准备"></a><span style="color:    CornflowerBlue">第二次作业要求和准备</span></h1><table>
+<thead>
+<tr>
+<th align="left"><strong>GIT地址</strong></th>
+<th align="left"><strong><a href="https://github.com/13551330961" target="_blank" rel="noopener">点击进入我的github</a></strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>GIT用户名</strong></td>
+<td align="left"><strong><span style="color:    CornflowerBlue">13551330961</span></strong></td>
+</tr>
+<tr>
+<td align="left"><strong>学号后5位</strong></td>
+<td align="left"><strong><span style="color:    CornflowerBlue">61129</span></strong></td>
+</tr>
+<tr>
+<td align="left"><strong>博客链接</strong></td>
+<td align="left"><strong><a href="https://www.cnblogs.com/wobuhuiqiao/" target="_blank" rel="noopener">点击进入我的博客</a></strong></td>
+</tr>
+<tr>
+<td align="left"><strong>作业链接</strong></td>
+<td align="left"><strong><a href="https://www.cnblogs.com/harry240/p/11515697.html" target="_blank" rel="noopener">点击进入我的作业</a></strong></td>
+</tr>
+</tbody></table>
+<h1 id="一-环境的配置"><a href="#一-环境的配置" class="headerlink" title="一.环境的配置"></a><span style="color:    OrangeRed">一.环境的配置</span></h1><p><font size="5"><strong><span style="color:    orangered">·VS2013一直很给力奥！</span></strong></font><br /><br><strong>1.建立一个项目。</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921134535161-1789139996.png" alt="" class="lazyload"><br><strong>2.空项目。</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921134717931-1431897043.png" alt="" class="lazyload"><br><strong>3.C++文件</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921134906316-665967061.png" alt="" class="lazyload"><br><strong>4.开始敲代码。</strong><br><strong>5.GIt的配置：通过<a href="https://www.cnblogs.com/harry240/p/11515697.html" target="_blank" rel="noopener">作业要求</a>下载安装好了Git和Github</strong><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921150746569-722752306.png" alt="" class="lazyload"></p>
+<h1 id="二-代码的设计"><a href="#二-代码的设计" class="headerlink" title="二.代码的设计"></a><span style="color:    OrangeRed">二.代码的设计</span></h1><p><strong><font size="5"></strong><span style="color:    orangered">·背景</span><strong></font><br /> ：阿超家里的孩子上小学一年级了，这个暑假老师给家长们布置了一个作业：家长每天要给孩子出一些合理的，但要有些难度的四则运算题目，并且家长要对孩子的作业打分记录。</strong><br><strong>作为程序员的阿超心想，既然每天都需要出题，那何不做一个可以自动生成小学四则运算题目与解决题目的命令行 “软件”呢。他把老师的话翻译一下，就形成了这个软件的需求：<br>程序接收一个命令行参数 n，然后随机产生 n 道加减乘除（分别使用符号+-*/来表示）练习题，每个数字在 0 和 100 之间，运算符在 2 个 到 3 个之间。<br>由于阿超的孩子才上一年级，并不知道分数。所以软件所出的练习题在运算过程中不得出现非整数，比如不能出现 3÷5+2=2.6 这样的算式。<br>练习题生成好后，将生成的 n 道练习题及其对应的正确答案输出到一个文件 subject.txt 中</strong></p>
+<p><strong>思路：我采用的C语言和C++混合完成这个项目（因为C++只学习了一点，还不大熟悉）<br>主要思路靠的是随机产生数字组合2项的四则运算（3项的四则运算开发失败😂），宁外一组数字是产生加减乘除符号，通过队列记录下结果。最后通过选择操作，输出结果。公开地展示自己的代码，我只能说一句“小生献丑了！”还望大佬指导！</strong><br><strong><font size="5"></strong><span style="color:    orangered">①头文件的声明和一些函数的声明：</span></font><br /> </p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs C++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;iostream&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;time.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span><span class="hljs-meta-string">&lt;windows.h&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;fstream&gt;</span></span><br><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> <span class="hljs-built_in">std</span>;<br><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Tot</span><span class="hljs-params">(<span class="hljs-keyword">int</span> n)</span></span>;<span class="hljs-comment">//两位数四则运算</span><br><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Toto</span><span class="hljs-params">(<span class="hljs-keyword">int</span> n)</span></span>;<span class="hljs-comment">//三位数四则运算</span><br><span class="hljs-keyword">typedef</span> <span class="hljs-keyword">int</span> Status;<br><span class="hljs-keyword">typedef</span> <span class="hljs-keyword">int</span> QElemType;<span class="hljs-comment">//定义队列元素数据类型</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> TRUE 1</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> FALSE 0</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> OK 1</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> ERROR 0</span><br><span class="hljs-meta">#<span class="hljs-meta-keyword">define</span> MAXQSIZE 100 <span class="hljs-comment">//循环队列最大容量</span></span><br></code></pre></td></tr></table></figure>
+<p><strong><font size="5"></strong><span style="color:    orangered">②有关队列的操作：</span></font><br /> </p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs C++"><span class="hljs-keyword">typedef</span> <span class="hljs-class"><span class="hljs-keyword">struct</span> <span class="hljs-title">QNode</span>&#123;</span><br>	<span class="hljs-keyword">int</span> front;     	<br>	<span class="hljs-keyword">int</span> rear;       <br>	QElemType *base; <br>&#125;SqQueue;<br></code></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><code class="hljs C++"><span class="hljs-comment">/*初始化循环队列*/</span><br><span class="hljs-function">Status <span class="hljs-title">InitQueue</span><span class="hljs-params">(SqQueue &amp;q)</span> </span>&#123;<br>	q.base = (QElemType *)<span class="hljs-built_in">malloc</span>(MAXQSIZE * <span class="hljs-keyword">sizeof</span>(QElemType));  <span class="hljs-comment">/*分配空间*/</span><br>	<span class="hljs-keyword">if</span> (!q.base) <span class="hljs-keyword">return</span> ERROR;<br>	<span class="hljs-comment">/*初始化队头、队尾*/</span><br>	q.front = <span class="hljs-number">0</span>;<br>	q.rear = <span class="hljs-number">0</span>;<br>	<span class="hljs-keyword">return</span> OK;<br>&#125;<br><span class="hljs-comment">/*入队（元素值e入队，如果队列已满无法入队就返回ERROR，执行成功返回OK）*/</span><br><span class="hljs-function">Status <span class="hljs-title">EnQueue</span><span class="hljs-params">(SqQueue &amp;q, QElemType e)</span></span>&#123;<br>	<span class="hljs-keyword">if</span> ((q.rear + <span class="hljs-number">1</span>) % MAXQSIZE == q.front)<br>		<span class="hljs-keyword">return</span> ERROR;<br>	q.base[q.rear] = e;<br>	q.rear = (q.rear + <span class="hljs-number">1</span>) % MAXQSIZE;<br>	<span class="hljs-keyword">return</span> OK;<br>&#125;<br><span class="hljs-comment">/*依次打印输出队列元素（执行成功返回OK，否则返回ERROR）*/</span><br><span class="hljs-function">Status <span class="hljs-title">PrintQueue</span><span class="hljs-params">(SqQueue q)</span> </span>&#123;<br>	<span class="hljs-keyword">int</span> i = q.front;<br>	<span class="hljs-keyword">while</span> ((i + q.front) != q.rear)<br>	&#123;<br>		<span class="hljs-built_in">printf</span>(<span class="hljs-string">"%d  "</span>, q.base[i]);<br>		i = (i + <span class="hljs-number">1</span>) % MAXQSIZE;<br>	&#125;<br>	<span class="hljs-keyword">return</span> OK;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p><strong><font size="5"></strong><span style="color:    orangered">③生成2项式数字以及运算符号的函数Tot</span></font><br />  </p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">Tot</span><span class="hljs-params">(<span class="hljs-keyword">int</span> n)</span></span><br><span class="hljs-function"></span>&#123;<br><br>	SqQueue Q;<br>	QElemType e;<br>	InitQueue(Q);<br>	<span class="hljs-keyword">int</span> i, x, y, s, m;<br>	<span class="hljs-keyword">for</span> (i = <span class="hljs-number">0</span>; i &lt; n; i++)<br>	&#123;<br>		s = rand() % <span class="hljs-number">4</span> + <span class="hljs-number">1</span>;<br>		<span class="hljs-keyword">if</span> (s == <span class="hljs-number">1</span>)<br>		&#123;<br>			x = rand() % <span class="hljs-number">100</span> + <span class="hljs-number">1</span>;<br>			y = rand() % <span class="hljs-number">100</span> + <span class="hljs-number">1</span>;<br>			e = x + y;<br>			EnQueue(Q, e);<br>			<span class="hljs-built_in">cout</span> &lt;&lt; x &lt;&lt; <span class="hljs-string">"+"</span> &lt;&lt; y &lt;&lt; <span class="hljs-string">"=\n"</span>;<br>		&#125;<br>		<span class="hljs-keyword">else</span>	<span class="hljs-keyword">if</span> (s == <span class="hljs-number">2</span>)<br>		&#123;<br>			x = rand() % <span class="hljs-number">100</span> + <span class="hljs-number">1</span>;<br>			y = rand() % <span class="hljs-number">100</span> + <span class="hljs-number">1</span>;<br>			e = x - y;<br>			EnQueue(Q, e);<br>			<span class="hljs-built_in">cout</span> &lt;&lt; x &lt;&lt; <span class="hljs-string">"-"</span> &lt;&lt; y &lt;&lt; <span class="hljs-string">"=\n"</span>;<br>		&#125;<br>		<span class="hljs-keyword">else</span>	<span class="hljs-keyword">if</span> (s == <span class="hljs-number">3</span>)<br>		&#123;<br>			x = rand() % <span class="hljs-number">100</span> + <span class="hljs-number">1</span>;<br>			y = rand() % <span class="hljs-number">100</span> + <span class="hljs-number">1</span>;<br>			e = x*y;<br>			EnQueue(Q, e);<br>			<span class="hljs-built_in">cout</span> &lt;&lt; x &lt;&lt; <span class="hljs-string">"×"</span> &lt;&lt; y &lt;&lt; <span class="hljs-string">"=\n"</span>;<br>		&#125;<br>		<span class="hljs-keyword">else</span>	<span class="hljs-keyword">if</span> (s == <span class="hljs-number">4</span>)<br>		&#123;<br>			x = rand() % <span class="hljs-number">100</span> + <span class="hljs-number">1</span>;<br>			y = rand() % <span class="hljs-number">100</span> + <span class="hljs-number">1</span>;<br>			<span class="hljs-keyword">if</span> (x &gt; y)<br>			&#123;<br>				<span class="hljs-keyword">if</span> (x%y == <span class="hljs-number">0</span>)<br>				&#123;<br>					e = x / y;<br>					EnQueue(Q, e);<br>					<span class="hljs-built_in">cout</span> &lt;&lt; x &lt;&lt; <span class="hljs-string">"÷"</span> &lt;&lt; y &lt;&lt; <span class="hljs-string">"=\n"</span>;<br>				&#125;<br>				<span class="hljs-keyword">else</span><br>				&#123;<br>					i--;<br>				&#125;<br>			&#125;<br>			<span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (x &lt;= y)<br>			&#123;<br>				<span class="hljs-keyword">if</span> (y%x == <span class="hljs-number">0</span>)<br>				&#123;<br>					e = x / y;<br>					EnQueue(Q, e);<br>					<span class="hljs-built_in">cout</span> &lt;&lt; y &lt;&lt; <span class="hljs-string">"÷"</span> &lt;&lt; x &lt;&lt; <span class="hljs-string">"=\n"</span>;<br>				&#125;<br>				<span class="hljs-keyword">else</span><br>				&#123;<br>					i--;<br>				&#125;<br>			&#125;<br>		&#125;<br><br>	&#125;<br>	<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"显示答案请输入“1”"</span> &lt;&lt; <span class="hljs-built_in">endl</span>;<br>	<span class="hljs-keyword">do</span>&#123;<br>		<span class="hljs-built_in">cin</span> &gt;&gt; m;<br>		<span class="hljs-keyword">switch</span> (m)<br>		&#123;<br>		<span class="hljs-keyword">case</span> <span class="hljs-number">1</span>:<br>			PrintQueue(Q);<br>			<span class="hljs-keyword">break</span>;<br>		<span class="hljs-keyword">default</span>:<br>			<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"\n你的输入有错误"</span>;<br>		&#125;<br>	&#125; <span class="hljs-keyword">while</span> (m);<br>	ofstream outfile;<br>	outfile.<span class="hljs-built_in">open</span>(<span class="hljs-string">"subject.txt"</span>);<br>	<span class="hljs-built_in">cout</span> &lt;&lt; PrintQueue(Q) &lt;&lt; <span class="hljs-built_in">endl</span>;<br>	outfile.<span class="hljs-built_in">close</span>();<br>&#125;<br></code></pre></td></tr></table></figure>
+<p><font size="5"><span style="color:    orangered">⑤main函数：</span></font><br /> </p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs c++"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>	<span class="hljs-keyword">int</span> m, n;<br>	<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"请输入需要产生的四则运算题个数:"</span> &lt;&lt; <span class="hljs-built_in">endl</span>;<br>	<span class="hljs-built_in">cin</span> &gt;&gt; n;<br>	srand((<span class="hljs-keyword">unsigned</span>)time(<span class="hljs-literal">NULL</span>));<br>	<span class="hljs-keyword">do</span><br>	&#123;<br>		<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"2项式运算请输入“2”，3项式运算请输入“3”"</span> &lt;&lt; <span class="hljs-built_in">endl</span>;<br>		<span class="hljs-built_in">cin</span> &gt;&gt; m;<br>		<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"........随机生成题目中........"</span> &lt;&lt; <span class="hljs-built_in">endl</span>;<br>		Sleep(<span class="hljs-number">1000</span>);<br>		<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"..........Loading.............."</span> &lt;&lt; <span class="hljs-built_in">endl</span>;<br>		Sleep(<span class="hljs-number">1000</span>);<br>		<span class="hljs-keyword">switch</span> (m)<br>		&#123;<br>		<span class="hljs-keyword">case</span> <span class="hljs-number">2</span>: Tot(n);<span class="hljs-comment">/*生成两项数字的函数程序*/</span><br>		<span class="hljs-keyword">case</span> <span class="hljs-number">3</span>: <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"阿偶！程序出错了!菜鸡程序员还未开发出此版块...\n..........请等待后续.........\n"</span>;<br>                                    <span class="hljs-comment">/*生成3项数字的函数程序Toto中道崩殂*/</span><br>			<span class="hljs-keyword">break</span>;<br>		<span class="hljs-keyword">default</span>:<br>			<span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"\n\n您的输入有误，请重新输入字符：\n"</span> &lt;&lt; <span class="hljs-built_in">endl</span>;<br>		&#125;<br>	&#125; <span class="hljs-keyword">while</span> (m);<br><br>	<span class="hljs-comment">/*Tot(n);*/</span><br>	system(<span class="hljs-string">"pause"</span>);<br>	<span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<p><font size="5"><span style="color:    orangered">⑥运行结果：</span></font><br /><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921143935622-103356182.png" alt="" class="lazyload"><br><font size="5"><span style="color:    orangered">⑦代码缺陷及改进思路：</span></font><br /><br><strong>可能由于逻辑原因，出现除法的概率特别小，然后三项式子的四则运算，应该可以基于二项式子的基础上增加（及在原来的数据结果上增加数字,也许会涉及迭代啥的）这样可能避开优先级的考虑，但是脱离了实际情况（因为对小学生的考察内容也包括优先级），由于知识水平时间有限暂未开发出三项式子的四则运算….建议老师购买别的软件…（别问我那么简单的代码我写那么长，因为显得比较厉害..&gt;）</strong><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921145707463-1583330641.png" alt="" class="lazyload">)<img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921145734104-184329087.png" alt="" class="lazyload"></p>
+<h1 id="三-使用github克隆项目及提交代码"><a href="#三-使用github克隆项目及提交代码" class="headerlink" title="三.使用github克隆项目及提交代码"></a><span style="color:    OrangeRed">三.使用github克隆项目及提交代码</span></h1><p><font size="5"><span style="color:    orangered">通过链接(<a href="https://github.com/ChildishChange/Calculator" target="_blank" rel="noopener">https://github.com/ChildishChange/Calculator</a></span></font><br /> <strong>进入阿超的仓库，点击Fork，克隆阿超的仓库到自己的账号上。</strong></p>
+<p><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921151757670-736483476.png" alt="" class="lazyload"><br><strong><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921153119413-2086167409.png" alt="" class="lazyload"></strong><br><strong>绿色方框里可以找到一个可克隆的项目地址</strong></p>
+<p><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921151605848-238484712.png" alt="" class="lazyload"></p>
+<p><strong>打开 Git 命令行软件（Windows上可在空白处右键打开 Git Bash ），输入 git clone <clone url> ，其中 <clone url> 即我们刚刚复制的项目地址。</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921153804540-1165914965.png" alt="" class="lazyload"><br><strong>得到这样一个文件夹</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921154000671-1277934268.png" alt="" class="lazyload"><br><strong>一系列谜之操作</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182659454-2068317092.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182808374-1852846084.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182835193-1862729946.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182848237-746186163.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182907431-1607290392.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182920330-114490672.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921182940052-980411774.png" alt="" class="lazyload"></p>
+<h1 id="四-对项目进行单元测试和回归测试"><a href="#四-对项目进行单元测试和回归测试" class="headerlink" title="四.对项目进行单元测试和回归测试"></a><span style="color:    OrangeRed">四.对项目进行单元测试和回归测试</span></h1><p><font size="5"><span style="color:    orangered">①新建单元测试项目：</p>
+<p><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921155145706-670363226.png" alt="" class="lazyload"></span></font><br /><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921155308605-1257920244.png" alt="" class="lazyload"></p>
+<p><font size="5"><span style="color:    orangered">④条件断点的强大，此断点在某些条件下才有效 并且通过Condition来设定值，来确定什么时候触发断点，十分强大！！</font><br /><br><font size="5"><span style="color:    orangered">⑤单步调试F11和F10的区别：F11逐过程F10逐语句（由于项目简单为使用断点）</span></font><br /><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921161546169-1810778527.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921155821684-1042522230.png" alt="" class="lazyload"><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921155853540-1364932042.png" alt="" class="lazyload"></p>
+<h1 id="五-我本次作业的感想"><a href="#五-我本次作业的感想" class="headerlink" title="五.我本次作业的感想"></a><span style="color:    OrangeRed">五.我本次作业的感想</span></h1><p><strong>“革命尚未成功，还需继续努力！”但是也有所收获，熟悉了数据结构中“队列”的用法，掌握了调试的基础技巧，在个人能力上还需要极大的提升，需要认真复习上学期的数据结构。在敲代码之前应该理清楚思路设计好框架，而后进行代码的生成。在调试的过程中更耐住性子，一步一步地失调好代码。我想这也是成为一个程序员必须所要经受的痛苦，希望最后可以在痛苦中感受到了一丝甜处。(好非︿(￣︶￣)︿…..)</strong><br><img data-sizes="auto" data-src="https://img2018.cnblogs.com/blog/1784293/201909/1784293-20190921133616637-1416541154.gif" alt="" class="lazyload">))</p>
+
+  </article>
+
+  <div class="nexmoe-post-meta nexmoe-rainbow">
+    
+    
+</div>
+
+  <div class="nexmoe-post-footer">
+    
+      
+  <div class="nexmoe-post-copyright">
+    <strong>本文作者：</strong>瓜西<br>
+    <strong>本文链接：</strong><a href="http://yoursite.com/child/2019/09/21/%E9%98%BF%E8%B6%85%E7%9A%84%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97%E5%99%A8/" title="http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;2019&#x2F;09&#x2F;21&#x2F;%E9%98%BF%E8%B6%85%E7%9A%84%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97%E5%99%A8&#x2F;" target="_blank" rel="noopener">http:&#x2F;&#x2F;yoursite.com&#x2F;child&#x2F;2019&#x2F;09&#x2F;21&#x2F;%E9%98%BF%E8%B6%85%E7%9A%84%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97%E5%99%A8&#x2F;</a><br>
+    
+      <strong>版权声明：</strong>本文采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/deed.zh" target="_blank">CC BY-NC-SA 3.0 CN</a> 协议进行许可
+    
+  </div>
+
+
+    
+    <section class="nexmoe-comment">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80OTk0Mi8yNjQzMw==">
+    <script id="livere-comment-js">
+    (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+       if (typeof LivereTower === 'function') { return; }
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+       e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+    </script>
+</div>
+
+</section>
+  </div>
+</div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js,gh/nexmoe/nexmoe.github.io@latest/js/app.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!--<script src="/js/app.js?v=1632277705713"></script>-->
+
+
+    <script src="https://cdn.jsdelivr.net/gh/xtaodada/xtaodada.github.io@0.0.2/copy.js"></script>
+
+
+
+  
+
+
+
+
+
+</body>
+
+</html>
